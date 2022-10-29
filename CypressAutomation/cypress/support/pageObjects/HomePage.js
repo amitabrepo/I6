@@ -1,13 +1,5 @@
 /// <reference types="Cypress" />
-// import HomePage from '../../../../support/pageObjects/HomePage'
-// import ProductPage from '../../../../support/pageObjects/ProductPage'
-// import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-//cypress run --spec cypress\integration\examples\BDD\*.feature --headed --browser chrome
-//npx cypress-tags run -e TAGS="@Smoke" --headed --browser chrome
-// const homePage = new HomePage()
-// const productPage = new ProductPage();
-// const cucumberJson = require('wdio-cucumberjs-json-reporter').default;
-// import ProductPage from '../../../../support/pageObjects/ProductPage'
+
 
 class HomePage {
     getAboutLink() {

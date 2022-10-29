@@ -1,0 +1,128 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "End to End I6",
+    "line": 1,
+    "id": "end-to-end-i6",
+    "tags": [],
+    "uri": "I6Valiation.feature",
+    "elements": [
+      {
+        "id": "end-to-end-i6;validating-the-i6-contact-us-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validating the I6 Contact us page",
+        "tags": [
+          {
+            "name": "@E2E",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open ECommerce Page",
+            "result": {
+              "status": "passed",
+              "duration": 7405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I click on Accept cookies button",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I click on AboutUs link",
+            "result": {
+              "status": "passed",
+              "duration": 2702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I select ContactUs button",
+            "result": {
+              "status": "passed",
+              "duration": 2138000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "lastname",
+                      "email",
+                      "enquiry_type"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Test",
+                      "Quality",
+                      "aaaa88888",
+                      "Careers"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the contact details",
+            "result": {
+              "status": "passed",
+              "duration": 3348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I click on Email-opt in",
+            "result": {
+              "status": "passed",
+              "duration": 495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on SubmitNow button",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I will validate error message",
+            "result": {
+              "status": "passed",
+              "duration": 9040000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

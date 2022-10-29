@@ -1,5 +1,4 @@
 Feature: End to End I6
-    application Regression1
     @E2E
     Scenario: Validating the I6 Contact us page
         Given I open ECommerce Page
