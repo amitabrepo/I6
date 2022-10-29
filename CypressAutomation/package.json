@@ -4,15 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run && node cucumber-html-report.js",
-    "headTest": "npm run test --headed",
-    "chromeTest": "npm run test --browser chrome",
-    "recordDashBoardTest": "npm run test --record --key fa423514-5a84-42a7-b6a0-b5e7191bba12 --reporter mochawesome",
-    "GreenKartTest": "npm run test --spec \"cypress/integration/GreenKart/*\"",
-    "Demo": "npm run test --spec \"cypress/integration/GreenKart/*\" --headed --browser chrome",
-    "test:Smoke": "npm run test --browser chrome --headed ./node_modules/.bin/cypress-tags run -e TAGS=\"@Smoke1\"",
-    "amit": "npx cypress run --spec cypress/integration/examples/BDD/ecomm.feature --browser chrome && node cucumber-html-report.js"
-
+    "TestPOC": "npx cypress run --spec cypress/integration/examples/BDD/I6Valiation.feature --browser chrome --headed && node cucumber-html-report.js"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,

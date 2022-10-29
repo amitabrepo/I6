@@ -1,14 +1,10 @@
 /// <reference types="Cypress" />
 import HomePage from '../../../../support/pageObjects/HomePage'
-import ProductPage from '../../../../support/pageObjects/ProductPage'
 import AboutPage from '../../../../support/pageObjects/AboutPage';
 import ContactUsPage from '../../../../support/pageObjects/ContactUsPage';
 
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-//cypress run --spec cypress\integration\examples\BDD\*.feature --headed --browser chrome
-//npx cypress-tags run -e TAGS="@Smoke" --headed --browser chrome
 const homePage = new HomePage()
-const productPage = new ProductPage()
 const aboutPage = new AboutPage()
 const contactUSPage = new ContactUsPage()
 

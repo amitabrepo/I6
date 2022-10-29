@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-29T11:02:23.674Z",
-    "end": "2022-10-29T11:02:37.532Z",
-    "duration": 13858,
+    "start": "2022-10-29T22:32:10.287Z",
+    "end": "2022-10-29T22:32:43.468Z",
+    "duration": 33181,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "87f59cc3-6d0d-4373-9469-4c0bc0b27769",
+      "uuid": "f678ef78-e61a-4a82-a27d-a68050eaab8a",
       "title": "",
-      "fullFile": "cypress\\integration\\examples\\BDD\\ecomm.feature",
-      "file": "cypress\\integration\\examples\\BDD\\ecomm.feature",
+      "fullFile": "cypress\\integration\\examples\\BDD\\I6Valiation.feature",
+      "file": "cypress\\integration\\examples\\BDD\\I6Valiation.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "1cd8bcaa-70ee-4c8c-a54e-6b6bb5db4e10",
-          "title": "End to end I6",
+          "uuid": "4e311b79-2790-44b0-afd1-a3f4275f93b3",
+          "title": "End to End I6",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Validating the I6 Contact s page",
-              "fullTitle": "End to end I6 Validating the I6 Contact s page",
+              "title": "Validating the I6 Contact us page",
+              "fullTitle": "End to End I6 Validating the I6 Contact us page",
               "timedOut": null,
-              "duration": 10667,
+              "duration": 26246,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "d68fde03-d40c-48a3-95f2-3fd02e406ee9",
-              "parentUUID": "1cd8bcaa-70ee-4c8c-a54e-6b6bb5db4e10",
+              "uuid": "c035bf2e-d2eb-4bfc-9a8c-302dfb4782cd",
+              "parentUUID": "4e311b79-2790-44b0-afd1-a3f4275f93b3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d68fde03-d40c-48a3-95f2-3fd02e406ee9"
+            "c035bf2e-d2eb-4bfc-9a8c-302dfb4782cd"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10667,
+          "duration": 26246,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
