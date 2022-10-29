@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "TestPOC": "npx cypress run --spec cypress/integration/examples/BDD/I6Valiation.feature --browser chrome --headed && node cucumber-html-report.js"
+    "TestPOC": "npx cypress run --spec cypress/integration/examples/BDD/I6Validation.feature --browser chrome --headed && node cucumber-html-report.js"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
