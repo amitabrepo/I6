@@ -10,7 +10,7 @@ The test example was performed on the "I6" website.
 
 ## 🔨 Running the project:
 
-1. Clone the repo
+1. Clone the repo - `main` branch
 2. CD into the `CypressAutomation` folder
 3. Install dependencies running 'npm install'
 4. Run `npm run TestPOC`
