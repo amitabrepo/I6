@@ -5,7 +5,7 @@
     "line": 1,
     "id": "end-to-end-i6",
     "tags": [],
-    "uri": "I6Valiation.feature",
+    "uri": "I6Validation.feature",
     "elements": [
       {
         "id": "end-to-end-i6;validating-the-i6-contact-us-page",
@@ -27,7 +27,7 @@
             "name": "I open ECommerce Page",
             "result": {
               "status": "passed",
-              "duration": 7405000000
+              "duration": 10069000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "I click on Accept cookies button",
             "result": {
               "status": "passed",
-              "duration": 666000000
+              "duration": 498000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "I click on AboutUs link",
             "result": {
               "status": "passed",
-              "duration": 2702000000
+              "duration": 2712000000
             }
           },
           {
@@ -57,7 +57,7 @@
             "name": "I select ContactUs button",
             "result": {
               "status": "passed",
-              "duration": 2138000000
+              "duration": 2913000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "I fill the contact details",
             "result": {
               "status": "passed",
-              "duration": 3348000000
+              "duration": 2870000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "I click on Email-opt in",
             "result": {
               "status": "passed",
-              "duration": 495000000
+              "duration": 398000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "I click on SubmitNow button",
             "result": {
               "status": "passed",
-              "duration": 501000000
+              "duration": 404000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "I will validate error message",
             "result": {
               "status": "passed",
-              "duration": 9040000000
+              "duration": 4827000000
             }
           }
         ]
