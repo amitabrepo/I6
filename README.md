@@ -1,7 +1,7 @@
 - 👋 End-to-End Automation Testing with Cypress and Cucumber
 
 Multi-browser framework for End-to-End Automation Testing with Cypress, Cucumber and Page Object Model.
-The test example was performed on the "I6" website.
+The test example was performed on the "I6" website...
 
 ## ✨ Pre-requisites:
 
